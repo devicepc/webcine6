@@ -632,4 +632,9 @@ function ExecuteScript() {
   }
 
 
+  function resdePantalla(){
+    var resPANq = screen.width;
+    document.getElementById("res").innerHTML = "la resolucion es :"+ resPANq;
+  }
+
  
