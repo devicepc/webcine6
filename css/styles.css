@@ -993,9 +993,20 @@ margin-top: 850px;
         border-radius: 10px;
     }
  }
-     
+    
+ @media screen and  (max-width:395px ){
+    .slider2{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .slider2 img {
+        width:347px;
+        height: 375px;
+        border-radius: 10px;
+    }
+ }
  
- @media screen and ( max-width: 500px){
+ @media screen and (min-width:396px) and (max-width: 500px){
      .cabecera{
          width: 100%;
      }
