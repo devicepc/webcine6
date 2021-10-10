@@ -986,6 +986,15 @@ margin-top: 850px;
   
         
  }
+ @media screen and  (max-width:320px ){
+    .slider2 img {
+        width:304px;
+        height: 375px;
+        border-radius: 10px;
+    }
+ }
+     
+ 
  @media screen and ( max-width: 500px){
      .cabecera{
          width: 100%;
@@ -1043,7 +1052,6 @@ margin-top: 850px;
     height: 25px;
 width: 70px;
 margin-left: -30px;
-border: solid 1px red;
 }
 
 #decrement{
@@ -1063,6 +1071,13 @@ margin-right: -20px;
     margin-left: -220px;
     width: 220px;
 }
+
+#aviso1 img{
+    width: 40px;
+    height: 40px;
+    margin-left: 60px;
+    
+}
  .slider2{
      width: 100%;
      margin-left: 0px;
@@ -1073,7 +1088,6 @@ margin-right: -20px;
 
 .infoFooter a{
     font-size: 0.6em;
-    color: red;
 }
 .infoFooter a:link{
     color: #FFf;
@@ -1101,7 +1115,7 @@ text-decoration: none;
     font-weight: bolder;
 }
 .slider2 img {
-	width:304px;
+	width:359px;
     height: 375px;
     border-radius: 10px;
 }
